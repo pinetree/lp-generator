@@ -1,0 +1,248 @@
+body {
+    font-family: 'arial';
+    line-height: 1.1;
+    font-size: 20px;
+}
+
+.rel {
+    position: relative;
+}
+
+.clr {
+    clear: both;
+}
+
+img, iframe {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+h1 {
+    margin: 0px;
+    font-size: 55px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2, .h2 {
+    margin: 0px;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center;
+}
+
+h3, .h3 {
+    margin: 0px;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.h1-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.h1-title h1 {
+    background: #FFF;
+    display: inline-block;
+    padding: 0 26px;
+    font-size: 28px;
+}
+
+.h2.ttl {
+    border-top: 1px solid #a3a3a3;
+    margin-bottom: 60px;
+}
+
+.h2.ttl span {
+    background: #FFF;
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+    top: -22px;
+}
+
+@media (min-width: 768px) {
+    .copy {
+    }
+
+    .h1-title {
+    }
+
+    .h1-title h1 {
+        font-size: 40px;
+    }
+}
+
+/*-- card-product --*/
+.card-product h1 {
+    font-size: 44px;
+    margin: 0px 0px 20px 0px;
+    padding: 0px;
+}
+
+.card-product .text-center h1 {
+    text-align: center !important;
+}
+
+.card-product h1 img {
+    position: relative;
+    top: -7px;
+}
+
+.description-product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.img-description img {
+    margin-bottom: 30px;
+}
+
+.size {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.size > span {
+    background: #e7e7e8;
+    padding: 8px 10px 10px 10px;
+    display: inline-block;
+    margin: 0px 2px 4px 2px;
+}
+
+.size :last-child {
+    border-right: none;
+}
+
+.size .red {
+    font-size: 16px;
+    position: relative;
+    top: -8px;
+}
+
+.size p {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.size-img, .mar-bott {
+    margin-bottom: 80px;
+}
+
+.card-row {
+    margin-bottom: 40px;
+}
+
+.card-row p.top {
+    margin-bottom: 30px;
+}
+
+.img-auto {
+    margin-bottom: 20px;
+}
+
+.img-auto-big {
+    margin-bottom: 60px;
+}
+
+.img-color-ral {
+    margin-right: 10px;
+}
+
+.ttl-blk-constr {
+    font-family: 'arial';
+    min-height: 44px;
+    margin-bottom: 16px;
+}
+
+@media (min-width: 992px) {
+    .card-product h1 {
+        text-align: left;
+    }
+
+    .description-product {
+        text-align: left;
+    }
+
+    .img-description img {
+        display: block;
+    }
+
+    .size > span {
+        min-width: 104px;
+    }
+
+    .size.sm > span {
+        min-width: 86px;
+    }
+
+    .size p {
+        display: inline-block;
+        margin-right: 170px;
+    }
+}
+
+/*-- !card-product --*/
+
+/*-- go-to-top --*/
+.go-to-top {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    bottom: 10%;
+    right: 30px;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.go-to-top {
+    -webkit-transform-style: preserve-3d;
+    opacity: 0.4;
+    filter: alpha(Opacity=40);
+}
+
+.go-to-top:hover {
+    opacity: 1;
+    filter: alpha(Opacity=100);
+    color: #FFF !important;
+}
+
+.go-to-top {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+}
+
+@media (min-width: 768px) {
+    .go-to-top {
+        bottom: 30%;
+    }
+}
+
+
+.name_inp{background:#fff url(../img/user.png) no-repeat scroll 10px center/auto 25px;border: 1px solid #909090;border-radius:5px;padding:10px 10px 10px 45px;width:90%;font-size:14px;}
+.phone_inp{background:#fff url(../img/phone-call.png) no-repeat scroll 10px center/auto 25px;border: 1px solid #909090;border-radius:5px;margin:10px auto;padding:10px 10px 10px 45px;width:90%;font-size:14px;}
+.email_inp{background:#fff url(../img/email.png) no-repeat scroll 10px center/auto 25px;border: 1px solid #909090;border-radius:5px;padding:10px 10px 10px 45px;width:90%;font-size:14px;}
+.adres_inp{background:#fff url(../img/delivery-truck.png) no-repeat scroll 10px center/auto 25px;border: 1px solid #909090;border-radius:5px;margin:10px auto;padding:10px 10px 10px 45px;width:90%;font-size:14px;}
+.white-popup{background:#fff none repeat scroll 0 0;border-radius:5px;margin:0 auto;max-width:800px;overflow:hidden;padding:20px;position:relative;width:auto;}
+
+.errorul {
+    padding: 30px;
+    color: red;
+}
+
+.form-sent {
+    padding: 30px;
+    color: green;
+}
+
+
+/*-- !go-to-top --*/
