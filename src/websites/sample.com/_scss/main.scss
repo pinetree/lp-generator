@@ -58,7 +58,7 @@ footer {
 
 @charset "utf-8";
 a {
-  outline: none; /* Убираем границу вокруг ссылок  */
+  outline: none;
 }
 
 h1, h2, h3 {
@@ -173,17 +173,16 @@ strong {
   }
 
   a {
-    outline: none; /* Убираем границу вокруг ссылок  */
+    outline: none;
   }
 }
 
-/*-- header  .container-fluid { width:auto; max-width:1326px;}--*/
 .fixed-top {
   min-height: 50px;
 }
 
 a {
-  outline: none; /* Убираем границу вокруг ссылок  */
+  outline: none;
 }
 
 .under-hat {
@@ -309,7 +308,7 @@ a {
   }
 
   .header .container .row .col-lg-3 {
-    width: 30%;
+    width: 25%;
   }
 }
 
@@ -429,42 +428,42 @@ a {
 }
 
 .mainsl .slides-item.slide1 {
-  background-image: url(../img/main-markiza.jpg);
+  background-image: url(../img/1920x500.png);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
 
 .mainsl .slides-item.slide2 {
-  background-image: url(../img/main-markiza.jpg);
+  background-image: url(../img/1920x500.png);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
 
 .mainsl .slides-item.slide3 {
-  background-image: url(../img/main-markiza.jpg);
+  background-image: url(../img/1920x500.png);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
 
 .mainsl .slides-item.slide4 {
-  background-image: url(../img/main-pergola.jpg);
+  background-image: url(../img/1920x500.png);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
 
 .mainsl .slides-item.slide5 {
-  background-image: url(../img/main-markiza.jpg);
+  background-image: url(../img/1920x500.png);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
 
 .mainsl .slides-item.slide6 {
-  background-image: url(../img/main-markiza.jpg);
+  background-image: url(../img/1920x500.png);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -4273,5 +4272,5 @@ a.btn201:hover {
 }
 
 .mainsl .flex-control-nav {
-  max-width: 950px;
+  max-width: 500px;
 }

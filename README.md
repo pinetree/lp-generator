@@ -1,6 +1,10 @@
 # Webpack4: Landing page generator
 
-Simple scaffolding for fast landing page generation from HTML-template via Webpack4
+Simple scaffolding and Webpack configuration for fast landing page (LP) generation from HTML-template via Webpack4.
+
+For example, we have a page (LP) template that will be a basis for a bunch of similar websites that will differ only in 
+colors/fonts/text content/contacts info (and so on).
+So we have common assets (css, images, javascript) and we want to use it for every new website (LP). 
 
 ### Prerequisites
 
@@ -76,6 +80,17 @@ SET folder=sample.com && npm run dev -- --folder=sample.com
 ```
 SET folder=sample.com && npm run build -- --folder=sample.com
 ```
+
+In case of errors, such as `Module not found: Error: Can't resolve './src/websites/..../index.js' in '.../lp-generator'`
+you can try to set `folder` variable by npm config:
+
+````
+npm config set lp-generator:folder sample.com
+````
+
+If we need to build a new page, i.e `sample2.com`, just make a copy of directory `sample.com`, name it `sample2.com` and 
+make a necessary edits in css, js and index.html files.  
+
 
 ## Authors
 

@@ -19,6 +19,7 @@ img, iframe {
 img {
     height: auto;
 }
+
 h1 {
     margin: 0px;
     font-size: 55px;
@@ -227,12 +228,54 @@ h3, .h3 {
     }
 }
 
+.name_inp {
+    background: #fff url(../img/user.png) no-repeat scroll 10px center/auto 25px;
+    border: 1px solid #909090;
+    border-radius: 5px;
+    padding: 10px 10px 10px 45px;
+    width: 90%;
+    font-size: 14px;
+}
 
-.name_inp{background:#fff url(../img/user.png) no-repeat scroll 10px center/auto 25px;border: 1px solid #909090;border-radius:5px;padding:10px 10px 10px 45px;width:90%;font-size:14px;}
-.phone_inp{background:#fff url(../img/phone-call.png) no-repeat scroll 10px center/auto 25px;border: 1px solid #909090;border-radius:5px;margin:10px auto;padding:10px 10px 10px 45px;width:90%;font-size:14px;}
-.email_inp{background:#fff url(../img/email.png) no-repeat scroll 10px center/auto 25px;border: 1px solid #909090;border-radius:5px;padding:10px 10px 10px 45px;width:90%;font-size:14px;}
-.adres_inp{background:#fff url(../img/delivery-truck.png) no-repeat scroll 10px center/auto 25px;border: 1px solid #909090;border-radius:5px;margin:10px auto;padding:10px 10px 10px 45px;width:90%;font-size:14px;}
-.white-popup{background:#fff none repeat scroll 0 0;border-radius:5px;margin:0 auto;max-width:800px;overflow:hidden;padding:20px;position:relative;width:auto;}
+.phone_inp {
+    background: #fff url(../img/phone-call.png) no-repeat scroll 10px center/auto 25px;
+    border: 1px solid #909090;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px 10px 10px 45px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.email_inp {
+    background: #fff url(../img/email.png) no-repeat scroll 10px center/auto 25px;
+    border: 1px solid #909090;
+    border-radius: 5px;
+    padding: 10px 10px 10px 45px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.adres_inp {
+    background: #fff url(../img/delivery-truck.png) no-repeat scroll 10px center/auto 25px;
+    border: 1px solid #909090;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px 10px 10px 45px;
+    width: 90%;
+    font-size: 14px;
+}
+
+.white-popup {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    width: auto;
+}
 
 .errorul {
     padding: 30px;
@@ -243,6 +286,4 @@ h3, .h3 {
     padding: 30px;
     color: green;
 }
-
-
 /*-- !go-to-top --*/
